@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==========================================
+# oTree Specific Exclusions
+# ==========================================
+# oTree database and temp files
+./db.sqlite3
+*.sqlite3
+__temp*
+_static_root
+_bots*s
+*.otreezip
+
+# Local environment and IDEs
+.idea
+*~
+staticfiles
